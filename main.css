@@ -1,0 +1,101 @@
+body{
+    background-color: beige;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+#logo{
+    font-size: 25px;
+    font-family: "Cedarville Cursive", cursive;
+    color: black;
+}
+li{
+    font-family: 'Poppins';
+    list-style: none;
+    margin-right: 0px;
+    border-right: 1px solid black;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 0;
+    height: 20px;
+}
+li:last-child{
+    margin-right: 0;
+    border-right: none;
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.image{ 
+    width: 350px;
+    height: 350px; 
+    border-radius: 50%;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -90px;
+}
+.name-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    margin-bottom:5px;
+    font-weight: 400;
+}
+.side-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+.side-text2{
+    margin-top: -20px;
+}
+.link-container{
+    display: flex;;
+    justify-content: space-around;
+}
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.email-link{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.github{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.github-link{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.linkedin{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.linkedin-link{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: black;
+}
