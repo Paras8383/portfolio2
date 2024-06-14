@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+#logo{
+    font-size: 25px;
+    font-family: "Cedarville Cursive", cursive;
+    color: black;
+}
+li{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    margin-right: 0px;
+    border-right: 1px solid black;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 0;
+    height: 20px;
+}
+li:last-child{
+    margin-right: 0px;
+    border-right: none;
+    padding-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown {
+    position: reltive;
+    display: inline-blck;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    min-width: fit-content;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: goldenrod;
+}
+h1{
+    font-family: 'RocknRoll One';
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    font-family: 'Poppins',sans-serif;
+    border-bottom: 2px solid black;
+}
+h3{
+    font-family: 'Poppins',sans-serif;
+}
+p{
+    font-family: 'Poppins',sans-serif;
+}
+
+img{
+    height: 350px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px grey;
+}
+.container{
+    display: flex;
+    gap: 15px;
+}
