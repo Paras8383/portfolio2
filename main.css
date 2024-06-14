@@ -99,3 +99,26 @@ a{
     font-size: 15px;
     color: black;
 }
+.dropdown {
+    position: reltive;
+    display: inline-blck;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 160px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    min-width: fit-content;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: goldenrod;
+}
